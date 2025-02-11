@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #322538;
+    color:#d8cecb;
+}
+
+.container{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    width:90%;
+}
+
+.leftSection{
+    width:50%;
+    float:left;
+}
+
+.subLeftSection{
+    position: fixed;
+}
+
+.rightSection{
+    width:50%;
+    float:right;
+}
+
+@media only screen and (max-width: 950px) {
+    .container{
+        max-width: 910px;
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container{
+        max-width: 800px;
+    }
+    .leftSection{
+        width:100%;
+    }
+    .subLeftSection{
+        position:static;
+    }
+    .rightSection{
+        width:100%;
+        float:left;
+    }
+}
