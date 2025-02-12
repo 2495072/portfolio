@@ -4,45 +4,47 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 import {faDesktop} from "@fortawesome/free-solid-svg-icons";
 import weather from '../../files/weather.png';
+import calendar from '../../files/calendar.png';
+import tsubame from '../../files/tsubame.png';
 
 
 function Projects(){
   const projects = [
     {
+      name: "Tsubame",
+      desc: "Tsubame is an individual project focused on serving the essence of the traditional Japanese tea ceremony and associated activities. Built using HTML and CSS, Tsubame provides a digital platform to explore the art of tea-making and engage in related cultural practices. From serene tea rituals to immersive activities, Tsubame offers an interactive experience that celebrates Japanese heritage and fosters appreciation for its traditions.",
+      tech: ["HTML", "CSS", "JavaScript", "Illustrator"],
+      git: "https://github.com/2495072/Tsubame",
+      demo: "https://2495072.github.io/Tsubame/",
+      image: tsubame,
+      access: "public"
+    },
+    {
+      name: "Weather",
+      desc: "This collaborative college project aims to create a web application that allows users to view real-time weather information, including weather forecasts for the upcoming days. The app will pull data from a weather API and display it in an easy-to-read format, with support for different locations. The project will also feature an intuitive interface for users to interact with, ensuring accessibility and responsiveness.",
+      tech: ["HTML", "CSS", "JavaScript", "React"],
+      git: "https://github.com/2495072/WeatherApp",
+      demo: "https://2495072.github.io/WeatherApp/",
+      image: weather,
+      access: "public"
+    },
+    {
+      name: "Calendar",
+      desc: "This individual college project focuses on creating a simple, interactive calendar that highlights the current day and the current week. The main feature is the ability to clearly mark the present day with a visual highlight, as well as highlight the entire current week to give users easy reference. The calendar is designed to be straightforward and easy to navigate, providing a quick visual representation of the current time.",
+      tech: ["HTML", "JavaScript"],
+      git: "https://github.com/2495072/Calendar",
+      demo: "https://2495072.github.io/Calendar/",
+      image: calendar,
+      access: "public"
+    },
+    {
       name: "Veleax",
-      desc: "This practical implementation was custom-developed specifically for Veleax Company, a provider of application development services. Within this system, clients have the ability to initiate contact with Veleax through a dedicated contact form, receive confirmation emails, and register for training courses. Additionally, users are empowered to register, update their profiles, apply for available positions and professional courses, and track the progress of their applications.",
+      desc: "This practical implementation was custom-developed for Veleax Company, a provider of application development services. As part of the project, I worked as the web designer, using Figma to design the user interface and layout of the website. The design aimed to provide an intuitive and visually appealing experience for users interacting with the various features of the system.",
       tech: ["Figma"],
       git: "https://github.com/vladapple/veleax",
       demo: "https://www.veleax.com",
       image: "https://veleax.s3.us-east-2.amazonaws.com/veleax.JPG",
       access: "private"
-    },
-    {
-      name: "Tsubame",
-      desc: "Tsubame is an individual project focused on serving the essence of the traditional Japanese tea ceremony and associated activities. Built using HTML and CSS, Tsubame provides a digital platform to explore the art of tea-making and engage in related cultural practices. From serene tea rituals to immersive activities, Tsubame offers an interactive experience that celebrates Japanese heritage and fosters appreciation for its traditions.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      git: "https://github.com/KinoklikMern/KinoklikMERN",
-      demo: "https://www.kinoklik.ca/",
-      image: "https://veleax.s3.us-east-2.amazonaws.com/kinoklik.JPG",
-      access: "private"
-    },
-    {
-      name: "Moonrise Movies",
-      desc: "This collaborative college project initiative aims to develop an application facilitating customers in accessing real-time information about the screenings at drive-in theaters, including schedules, movie titles, and pertinent details. Additionally, the platform will enable users to contribute feedback through ratings and reviews of the cinematic experiences.",
-      tech: ["ASP.NET Core", "ASP.NET Identity", "Entity Framework", "Google Charts API", "Microsoft SQL Server", "Azure Storage Blobs", "Azure Application"],
-      git: "https://github.com/vladapple/MoonriseMovies",
-      demo: "https://moonrisemovies.azurewebsites.net/",
-      image: weather,
-      access: "public"
-    },
-    {
-      name: "Green Horn Recruits",
-      desc: "This collaborative college project aims to provide a platform for recruitment agents to view available jobs from business clients and pre-screen the best possible candidates for the jobs.",
-      tech: ["WPF", "C#", "Azure", "Microsoft SQL Server"],
-      git: "https://github.com/vladapple/GreenHorn",
-      demo: "https://github.com/vladapple/GreenHorn",
-      image: "https://veleax.s3.us-east-2.amazonaws.com/Green+horn+recruits.JPG",
-      access: "public"
     }
   ]
   return (

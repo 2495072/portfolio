@@ -60,13 +60,11 @@ function Details(){
       <div className={`${DetailsCSS.container}`}>
               <h2>Evgenia Epelboym</h2> 
               <h4 className={`${DetailsCSS.fullStack}`}>Web Designer & Front-End Developer</h4>
-              <h5 className={`${DetailsCSS.aboutText}`}>
+              <p className={`${DetailsCSS.aboutText}`}>
               Passionate and detail-oriented Web and Front-End Developer with expertise in
-              building user-friendly, visually appealing websites. Proficient in HTML, CSS,
-              JavaScript, and React, with a strong focus on responsive design and interactive
-              user experiences. Committed to delivering clean code, optimized performance,
+              building user-friendly, visually appealing websites. Committed to delivering clean code, optimized performance,
               and seamless UI/UX solutions to meet modern web development demands.
-              </h5>
+              </p>
               <div className={`${DetailsCSS.menu}`} onClick={() => handleItemClick('#about')}>
                   <span className={`${activeSection === '#about' ? `${DetailsCSS.lineActive}` : `${DetailsCSS.line}`}`}></span>
                   <span className={`${activeSection === '#about' ? `${DetailsCSS.wordActive}` : `${DetailsCSS.word}`}`}>about</span>

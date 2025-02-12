@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutCSS from "./About.module.css";
-import pdfFile from '../../files/Portfolio_CV.pdf';
+import pdfFile from '../../files/Resume.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faArrowsRotate} from "@fortawesome/free-solid-svg-icons";
 
