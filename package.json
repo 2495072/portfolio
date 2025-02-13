@@ -1,6 +1,6 @@
 {
-  "homepage": "https://2495072.github.io/portfolio",
-  "name": "my-portfolio",
+  "homepage": "https://2495072.github.io/react-gh-pages",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
