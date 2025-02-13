@@ -4,7 +4,7 @@ import Portfolio from './pages/Portfolio';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/portfolio">
         <Routes>
           <Route path="/" element={<Portfolio />} />
         </Routes>
