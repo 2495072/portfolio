@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.cacf9964.css",
-    "main.js": "/react-gh-pages/static/js/main.fffbd3eb.js",
-    "static/media/Resume.pdf": "/react-gh-pages/static/media/Resume.a81847c935ee118ba745.pdf",
-    "static/media/weather.png": "/react-gh-pages/static/media/weather.e40bb3038f0989126164.png",
-    "static/media/tsubame.png": "/react-gh-pages/static/media/tsubame.13ac354b7feec231b51a.png",
-    "static/media/calendar.png": "/react-gh-pages/static/media/calendar.9515f8a68b199fff6559.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.cacf9964.css.map": "/react-gh-pages/static/css/main.cacf9964.css.map",
-    "main.fffbd3eb.js.map": "/react-gh-pages/static/js/main.fffbd3eb.js.map"
+    "main.css": "/portfolio/static/css/main.cacf9964.css",
+    "main.js": "/portfolio/static/js/main.0b86d5f8.js",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.a81847c935ee118ba745.pdf",
+    "static/media/weather.png": "/portfolio/static/media/weather.e40bb3038f0989126164.png",
+    "static/media/tsubame.png": "/portfolio/static/media/tsubame.13ac354b7feec231b51a.png",
+    "static/media/calendar.png": "/portfolio/static/media/calendar.9515f8a68b199fff6559.png",
+    "index.html": "/portfolio/index.html",
+    "main.cacf9964.css.map": "/portfolio/static/css/main.cacf9964.css.map",
+    "main.0b86d5f8.js.map": "/portfolio/static/js/main.0b86d5f8.js.map"
   },
   "entrypoints": [
     "static/css/main.cacf9964.css",
-    "static/js/main.fffbd3eb.js"
+    "static/js/main.0b86d5f8.js"
   ]
 }
