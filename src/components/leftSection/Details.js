@@ -82,8 +82,8 @@ function Details(){
                   <span className={`${activeSection === '#contact' ? `${DetailsCSS.wordActive}` : `${DetailsCSS.word}`}`}>contact</span>
               </div>
               <div className={`${DetailsCSS.icons}`}>
-                <a href="https://github.com/vladapple" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className={`${DetailsCSS.icon}`}/></a>  
-                <a href="https://www.linkedin.com/in/vladislav-epelboym" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} className={`${DetailsCSS.icon}`}/></a>
+                <a href="https://github.com/2495072" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className={`${DetailsCSS.icon}`}/></a>  
+                <a href="https://www.linkedin.com/in/evgenia-epelboym/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} className={`${DetailsCSS.icon}`}/></a>
               </div> 
               
       </div>
